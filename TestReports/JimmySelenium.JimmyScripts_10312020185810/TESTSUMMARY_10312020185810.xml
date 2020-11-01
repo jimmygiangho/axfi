@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Template\Summary.xsl"?>
+<tests name="SeneGenceDistributorSignup" osversion="Microsoft Windows 10 Pro" browsername="-" runtype="Local run" agentname="-" buildnumber="-" testplan="-">
+  <codedui name="SeneGenceDistributorSignup">
+    <testid>-</testid>
+    <starttime>10/31/2020 6:58:10 PM</starttime>
+    <status>complete</status>
+    <file>SeneGenceDistributorSignup_10312020185810.xml</file>
+    <description>Validate Valid DistributorSignup</description>
+    <result>Passed</result>
+    <endtime>10/31/2020 6:58:28 PM</endtime>
+    <runtime>17</runtime>
+  </codedui>
+</tests>

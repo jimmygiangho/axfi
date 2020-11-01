@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Template\Details.xsl"?>
+<testdetails>
+  <test name="SeneGenceDistributorSignup" osversion="Microsoft Windows 10 Pro" browsername="-" runtype="Local run" agentname="-" buildnumber="-" testplan="-">
+    <description>Validate Valid DistributorSignup</description>
+    <teststep description="1. Go to SeneGence DistributorSignup Page" stepnumber="1">
+      <dbg Control="sponsorDistId" ControlType="" Method="Get" Property="Displayed" Value="" AValue="True" Result="Passed" Error="" stepTime="" Screenshot="C:\JimmySelenium\TestReports\JimmySelenium.JimmyScripts_10312020185810\Screenshots\SeneGenceDistributorSignup\10_31_2020_6_58_18_PM.jpeg" />
+    </teststep>
+    <teststep description="2. SearchBySponsorDistId " stepnumber="2">
+      <dbg Control="sponsorDistId" ControlType="" Method="SendKeys" Property="734339" Value="" AValue="" Result="Passed" Error="" stepTime="" Screenshot="C:\JimmySelenium\TestReports\JimmySelenium.JimmyScripts_10312020185810\Screenshots\SeneGenceDistributorSignup\10_31_2020_6_58_18_PM.jpeg" />
+    </teststep>
+    <teststep description="3. ClickYesOnSponsorConfirmationPopUp" stepnumber="3">
+      <dbg Control="sponsorConfirmationHeader" ControlType="" Method="Get" Property="Displayed" Value="" AValue="False" Result="Passed" Error="" stepTime="" Screenshot="C:\JimmySelenium\TestReports\JimmySelenium.JimmyScripts_10312020185810\Screenshots\SeneGenceDistributorSignup\10_31_2020_6_58_18_PM.jpeg" />
+      <dbg Control="sponsorConfirmationHeader" ControlType="" Method="Get" Property="Displayed" Value="" AValue="True" Result="Passed" Error="" stepTime="" Screenshot="C:\JimmySelenium\TestReports\JimmySelenium.JimmyScripts_10312020185810\Screenshots\SeneGenceDistributorSignup\10_31_2020_6_58_19_PM.jpeg" />
+      <dbg Control="YesButton" ControlType="" Method="Click" Property="" Value="" AValue="" Result="Passed" Error="" stepTime="" Screenshot="C:\JimmySelenium\TestReports\JimmySelenium.JimmyScripts_10312020185810\Screenshots\SeneGenceDistributorSignup\10_31_2020_6_58_19_PM.jpeg" />
+    </teststep>
+    <teststep description="4. ClickContinue" stepnumber="4">
+      <dbg Control="continueButton" ControlType="" Method="Get" Property="Displayed" Value="" AValue="False" Result="Passed" Error="" stepTime="" Screenshot="C:\JimmySelenium\TestReports\JimmySelenium.JimmyScripts_10312020185810\Screenshots\SeneGenceDistributorSignup\10_31_2020_6_58_19_PM.jpeg" />
+      <dbg Control="continueButton" ControlType="" Method="Get" Property="Displayed" Value="" AValue="True" Result="Passed" Error="" stepTime="" Screenshot="C:\JimmySelenium\TestReports\JimmySelenium.JimmyScripts_10312020185810\Screenshots\SeneGenceDistributorSignup\10_31_2020_6_58_20_PM.jpeg" />
+      <dbg Control="continueButton" ControlType="" Method="Click" Property="" Value="" AValue="" Result="Passed" Error="" stepTime="" Screenshot="C:\JimmySelenium\TestReports\JimmySelenium.JimmyScripts_10312020185810\Screenshots\SeneGenceDistributorSignup\10_31_2020_6_58_20_PM.jpeg" />
+    </teststep>
+    <teststep description="5. SelectContry" stepnumber="5">
+      <dbg Control="country" ControlType="" Method="Get" Property="Displayed" Value="" AValue="True" Result="Passed" Error="" stepTime="" Screenshot="C:\JimmySelenium\TestReports\JimmySelenium.JimmyScripts_10312020185810\Screenshots\SeneGenceDistributorSignup\10_31_2020_6_58_20_PM.jpeg" />
+      <dbg Control="country" ControlType="" Method="Click" Property="" Value="" AValue="" Result="Passed" Error="" stepTime="" Screenshot="C:\JimmySelenium\TestReports\JimmySelenium.JimmyScripts_10312020185810\Screenshots\SeneGenceDistributorSignup\10_31_2020_6_58_20_PM.jpeg" />
+      <dbg Control="countryUS" ControlType="" Method="Get" Property="Displayed" Value="" AValue="True" Result="Passed" Error="" stepTime="" Screenshot="C:\JimmySelenium\TestReports\JimmySelenium.JimmyScripts_10312020185810\Screenshots\SeneGenceDistributorSignup\10_31_2020_6_58_20_PM.jpeg" />
+      <dbg Control="countryUS" ControlType="" Method="Click" Property="" Value="" AValue="" Result="Passed" Error="" stepTime="" Screenshot="C:\JimmySelenium\TestReports\JimmySelenium.JimmyScripts_10312020185810\Screenshots\SeneGenceDistributorSignup\10_31_2020_6_58_20_PM.jpeg" />
+      <dbg Control="comapny" ControlType="" Method="Get" Property="Displayed" Value="" AValue="True" Result="Passed" Error="" stepTime="" Screenshot="C:\JimmySelenium\TestReports\JimmySelenium.JimmyScripts_10312020185810\Screenshots\SeneGenceDistributorSignup\10_31_2020_6_58_20_PM.jpeg" />
+    </teststep>
+    <teststep description="6. Enter Email" stepnumber="6">
+      <dbg Control="email" ControlType="" Method="SendKeys" Property="BCgpFjlP@yomail.com" Value="" AValue="" Result="Passed" Error="" stepTime="" Screenshot="C:\JimmySelenium\TestReports\JimmySelenium.JimmyScripts_10312020185810\Screenshots\SeneGenceDistributorSignup\10_31_2020_6_58_21_PM.jpeg" />
+    </teststep>
+    <teststep description="7. Enter Comany" stepnumber="7">
+      <dbg Control="comapny" ControlType="" Method="SendKeys" Property="kRCTqkeVCompany" Value="" AValue="" Result="Passed" Error="" stepTime="" Screenshot="C:\JimmySelenium\TestReports\JimmySelenium.JimmyScripts_10312020185810\Screenshots\SeneGenceDistributorSignup\10_31_2020_6_58_21_PM.jpeg" />
+    </teststep>
+    <teststep description="8. Enter mobilePhone" stepnumber="8">
+      <dbg Control="mobilePhone" ControlType="" Method="SendKeys" Property="5963660421" Value="" AValue="" Result="Passed" Error="" stepTime="" Screenshot="C:\JimmySelenium\TestReports\JimmySelenium.JimmyScripts_10312020185810\Screenshots\SeneGenceDistributorSignup\10_31_2020_6_58_21_PM.jpeg" />
+    </teststep>
+    <teststep description="9. Enter otherPhone" stepnumber="9">
+      <dbg Control="phone" ControlType="" Method="SendKeys" Property="4621561935" Value="" AValue="" Result="Passed" Error="" stepTime="" Screenshot="C:\JimmySelenium\TestReports\JimmySelenium.JimmyScripts_10312020185810\Screenshots\SeneGenceDistributorSignup\10_31_2020_6_58_21_PM.jpeg" />
+    </teststep>
+    <teststep description="10. EntertaxID" stepnumber="10">
+      <dbg Control="taxId" ControlType="" Method="SendKeys" Property="242542525" Value="" AValue="" Result="Passed" Error="" stepTime="" Screenshot="C:\JimmySelenium\TestReports\JimmySelenium.JimmyScripts_10312020185810\Screenshots\SeneGenceDistributorSignup\10_31_2020_6_58_21_PM.jpeg" />
+    </teststep>
+    <teststep description="11. Enter Fill name" stepnumber="11">
+      <dbg Control="firstName" ControlType="" Method="SendKeys" Property="pLNTSUlj" Value="" AValue="" Result="Passed" Error="" stepTime="" Screenshot="C:\JimmySelenium\TestReports\JimmySelenium.JimmyScripts_10312020185810\Screenshots\SeneGenceDistributorSignup\10_31_2020_6_58_21_PM.jpeg" />
+      <dbg Control="middleName" ControlType="" Method="SendKeys" Property="PSWMDpVz" Value="" AValue="" Result="Passed" Error="" stepTime="" Screenshot="C:\JimmySelenium\TestReports\JimmySelenium.JimmyScripts_10312020185810\Screenshots\SeneGenceDistributorSignup\10_31_2020_6_58_22_PM.jpeg" />
+      <dbg Control="lastName" ControlType="" Method="SendKeys" Property="QiDwwKcX" Value="" AValue="" Result="Passed" Error="" stepTime="" Screenshot="C:\JimmySelenium\TestReports\JimmySelenium.JimmyScripts_10312020185810\Screenshots\SeneGenceDistributorSignup\10_31_2020_6_58_22_PM.jpeg" />
+    </teststep>
+    <teststep description="12. Enter DoB abd check age confirmation check box" stepnumber="12">
+      <dbg Control="DoB" ControlType="" Method="SendKeys" Property="01/01/2001" Value="" AValue="" Result="Passed" Error="" stepTime="" Screenshot="C:\JimmySelenium\TestReports\JimmySelenium.JimmyScripts_10312020185810\Screenshots\SeneGenceDistributorSignup\10_31_2020_6_58_22_PM.jpeg" />
+      <dbg Control="ageConfirmationCheckbox" ControlType="" Method="Get" Property="Displayed" Value="" AValue="True" Result="Passed" Error="" stepTime="" Screenshot="C:\JimmySelenium\TestReports\JimmySelenium.JimmyScripts_10312020185810\Screenshots\SeneGenceDistributorSignup\10_31_2020_6_58_22_PM.jpeg" />
+      <dbg Control="ageConfirmationCheckbox" ControlType="" Method="Click" Property="" Value="" AValue="" Result="Passed" Error="" stepTime="" Screenshot="C:\JimmySelenium\TestReports\JimmySelenium.JimmyScripts_10312020185810\Screenshots\SeneGenceDistributorSignup\10_31_2020_6_58_22_PM.jpeg" />
+    </teststep>
+    <teststep description="13. Set password" stepnumber="13">
+      <dbg Control="password" ControlType="" Method="SendKeys" Property="P@44wordjUjXJPAm" Value="" AValue="" Result="Passed" Error="" stepTime="" Screenshot="C:\JimmySelenium\TestReports\JimmySelenium.JimmyScripts_10312020185810\Screenshots\SeneGenceDistributorSignup\10_31_2020_6_58_22_PM.jpeg" />
+      <dbg Control="confirmPassword" ControlType="" Method="SendKeys" Property="P@44wordjUjXJPAm" Value="" AValue="" Result="Passed" Error="" stepTime="" Screenshot="C:\JimmySelenium\TestReports\JimmySelenium.JimmyScripts_10312020185810\Screenshots\SeneGenceDistributorSignup\10_31_2020_6_58_22_PM.jpeg" />
+    </teststep>
+    <teststep description="14. Click On Continue button" stepnumber="14">
+      <dbg Control="continueButton" ControlType="" Method="Get" Property="Enabled" Value="" AValue="True" Result="Passed" Error="" stepTime="" Screenshot="C:\JimmySelenium\TestReports\JimmySelenium.JimmyScripts_10312020185810\Screenshots\SeneGenceDistributorSignup\10_31_2020_6_58_22_PM.jpeg" />
+      <dbg Control="continueButton" ControlType="" Method="Click" Property="" Value="" AValue="" Result="Passed" Error="" stepTime="" Screenshot="C:\JimmySelenium\TestReports\JimmySelenium.JimmyScripts_10312020185810\Screenshots\SeneGenceDistributorSignup\10_31_2020_6_58_23_PM.jpeg" />
+      <dbg Control="continueButton" ControlType="" Method="Get" Property="Enabled" Value="" AValue="True" Result="Passed" Error="" stepTime="" Screenshot="C:\JimmySelenium\TestReports\JimmySelenium.JimmyScripts_10312020185810\Screenshots\SeneGenceDistributorSignup\10_31_2020_6_58_23_PM.jpeg" />
+      <dbg Control="continueButton" ControlType="" Method="Click" Property="" Value="" AValue="" Result="Passed" Error="" stepTime="" Screenshot="C:\JimmySelenium\TestReports\JimmySelenium.JimmyScripts_10312020185810\Screenshots\SeneGenceDistributorSignup\10_31_2020_6_58_23_PM.jpeg" />
+    </teststep>
+    <teststep description="15. Enter Shipping address" stepnumber="15">
+      <dbg Control="shippingBizName" ControlType="" Method="Get" Property="Enabled" Value="" AValue="True" Result="Passed" Error="" stepTime="" Screenshot="C:\JimmySelenium\TestReports\JimmySelenium.JimmyScripts_10312020185810\Screenshots\SeneGenceDistributorSignup\10_31_2020_6_58_23_PM.jpeg" />
+      <dbg Control="shippingAddressLine1" ControlType="" Method="SendKeys" Property="2051 nTxvGgez Street" Value="" AValue="" Result="Passed" Error="" stepTime="" Screenshot="C:\JimmySelenium\TestReports\JimmySelenium.JimmyScripts_10312020185810\Screenshots\SeneGenceDistributorSignup\10_31_2020_6_58_23_PM.jpeg" />
+      <dbg Control="shippingCity" ControlType="" Method="SendKeys" Property="domwMuOs City" Value="" AValue="" Result="Passed" Error="" stepTime="" Screenshot="C:\JimmySelenium\TestReports\JimmySelenium.JimmyScripts_10312020185810\Screenshots\SeneGenceDistributorSignup\10_31_2020_6_58_23_PM.jpeg" />
+      <dbg Control="shippingState" ControlType="" Method="Click" Property="" Value="" AValue="" Result="Passed" Error="" stepTime="" Screenshot="C:\JimmySelenium\TestReports\JimmySelenium.JimmyScripts_10312020185810\Screenshots\SeneGenceDistributorSignup\10_31_2020_6_58_23_PM.jpeg" />
+      <dbg Control="shippingState" ControlType="" Method="Get" Property="Displayed" Value="" AValue="True" Result="Passed" Error="" stepTime="" Screenshot="C:\JimmySelenium\TestReports\JimmySelenium.JimmyScripts_10312020185810\Screenshots\SeneGenceDistributorSignup\10_31_2020_6_58_23_PM.jpeg" />
+      <dbg Control="shippingStateCA" ControlType="" Method="Click" Property="" Value="" AValue="" Result="Passed" Error="" stepTime="" Screenshot="C:\JimmySelenium\TestReports\JimmySelenium.JimmyScripts_10312020185810\Screenshots\SeneGenceDistributorSignup\10_31_2020_6_58_23_PM.jpeg" />
+      <dbg Control="shippingZip" ControlType="" Method="Get" Property="Displayed" Value="" AValue="True" Result="Passed" Error="" stepTime="" Screenshot="C:\JimmySelenium\TestReports\JimmySelenium.JimmyScripts_10312020185810\Screenshots\SeneGenceDistributorSignup\10_31_2020_6_58_23_PM.jpeg" />
+      <dbg Control="shippingZip" ControlType="" Method="SendKeys" Property="90210" Value="" AValue="" Result="Passed" Error="" stepTime="" Screenshot="C:\JimmySelenium\TestReports\JimmySelenium.JimmyScripts_10312020185810\Screenshots\SeneGenceDistributorSignup\10_31_2020_6_58_24_PM.jpeg" />
+    </teststep>
+    <teststep description="16. Click On Continue button" stepnumber="16">
+      <dbg Control="continueButton" ControlType="" Method="Get" Property="Enabled" Value="" AValue="True" Result="Passed" Error="" stepTime="" Screenshot="C:\JimmySelenium\TestReports\JimmySelenium.JimmyScripts_10312020185810\Screenshots\SeneGenceDistributorSignup\10_31_2020_6_58_24_PM.jpeg" />
+      <dbg Control="continueButton" ControlType="" Method="Click" Property="" Value="" AValue="" Result="Passed" Error="" stepTime="" Screenshot="C:\JimmySelenium\TestReports\JimmySelenium.JimmyScripts_10312020185810\Screenshots\SeneGenceDistributorSignup\10_31_2020_6_58_24_PM.jpeg" />
+    </teststep>
+    <teststep description="17. Accept DistributorPoliciesProcedures" stepnumber="17">
+      <dbg Control="DistributorPoliciesProcedures" ControlType="" Method="Get" Property="Displayed" Value="" AValue="True" Result="Passed" Error="" stepTime="" Screenshot="C:\JimmySelenium\TestReports\JimmySelenium.JimmyScripts_10312020185810\Screenshots\SeneGenceDistributorSignup\10_31_2020_6_58_24_PM.jpeg" />
+      <dbg Control="DistributorPoliciesProcedures" ControlType="" Method="Click" Property="" Value="" AValue="" Result="Passed" Error="" stepTime="" Screenshot="C:\JimmySelenium\TestReports\JimmySelenium.JimmyScripts_10312020185810\Screenshots\SeneGenceDistributorSignup\10_31_2020_6_58_24_PM.jpeg" />
+      <dbg Control="LegalDocHeader" ControlType="" Method="Get" Property="Displayed" Value="" AValue="False" Result="Passed" Error="" stepTime="" Screenshot="C:\JimmySelenium\TestReports\JimmySelenium.JimmyScripts_10312020185810\Screenshots\SeneGenceDistributorSignup\10_31_2020_6_58_25_PM.jpeg" />
+      <dbg Control="LegalDocHeader" ControlType="" Method="Get" Property="Displayed" Value="" AValue="True" Result="Passed" Error="" stepTime="" Screenshot="C:\JimmySelenium\TestReports\JimmySelenium.JimmyScripts_10312020185810\Screenshots\SeneGenceDistributorSignup\10_31_2020_6_58_25_PM.jpeg" />
+      <dbg Control="AcceptButton" ControlType="" Method="Click" Property="" Value="" AValue="" Result="Passed" Error="" stepTime="" Screenshot="C:\JimmySelenium\TestReports\JimmySelenium.JimmyScripts_10312020185810\Screenshots\SeneGenceDistributorSignup\10_31_2020_6_58_25_PM.jpeg" />
+      <dbg Control="SubmittButton" ControlType="" Method="Get" Property="Displayed" Value="" AValue="False" Result="Passed" Error="" stepTime="" Screenshot="C:\JimmySelenium\TestReports\JimmySelenium.JimmyScripts_10312020185810\Screenshots\SeneGenceDistributorSignup\10_31_2020_6_58_25_PM.jpeg" />
+      <dbg Control="SubmittButton" ControlType="" Method="Get" Property="Displayed" Value="" AValue="True" Result="Passed" Error="" stepTime="" Screenshot="C:\JimmySelenium\TestReports\JimmySelenium.JimmyScripts_10312020185810\Screenshots\SeneGenceDistributorSignup\10_31_2020_6_58_26_PM.jpeg" />
+    </teststep>
+    <teststep description="18. Accept AcceptMinimumAdvertisedPricePolicy" stepnumber="18">
+      <dbg Control="MinimumAdvertisedPricePolicy" ControlType="" Method="Get" Property="Displayed" Value="" AValue="True" Result="Passed" Error="" stepTime="" Screenshot="C:\JimmySelenium\TestReports\JimmySelenium.JimmyScripts_10312020185810\Screenshots\SeneGenceDistributorSignup\10_31_2020_6_58_26_PM.jpeg" />
+      <dbg Control="MinimumAdvertisedPricePolicy" ControlType="" Method="Click" Property="" Value="" AValue="" Result="Passed" Error="" stepTime="" Screenshot="C:\JimmySelenium\TestReports\JimmySelenium.JimmyScripts_10312020185810\Screenshots\SeneGenceDistributorSignup\10_31_2020_6_58_26_PM.jpeg" />
+      <dbg Control="LegalDocHeader" ControlType="" Method="Get" Property="Displayed" Value="" AValue="False" Result="Passed" Error="" stepTime="" Screenshot="C:\JimmySelenium\TestReports\JimmySelenium.JimmyScripts_10312020185810\Screenshots\SeneGenceDistributorSignup\10_31_2020_6_58_26_PM.jpeg" />
+      <dbg Control="LegalDocHeader" ControlType="" Method="Get" Property="Displayed" Value="" AValue="True" Result="Passed" Error="" stepTime="" Screenshot="C:\JimmySelenium\TestReports\JimmySelenium.JimmyScripts_10312020185810\Screenshots\SeneGenceDistributorSignup\10_31_2020_6_58_27_PM.jpeg" />
+      <dbg Control="acknowledgeCheckbox" ControlType="" Method="Click" Property="" Value="" AValue="" Result="Passed" Error="" stepTime="" Screenshot="C:\JimmySelenium\TestReports\JimmySelenium.JimmyScripts_10312020185810\Screenshots\SeneGenceDistributorSignup\10_31_2020_6_58_27_PM.jpeg" />
+      <dbg Control="SubmittButton" ControlType="" Method="Get" Property="Displayed" Value="" AValue="False" Result="Passed" Error="" stepTime="" Screenshot="C:\JimmySelenium\TestReports\JimmySelenium.JimmyScripts_10312020185810\Screenshots\SeneGenceDistributorSignup\10_31_2020_6_58_27_PM.jpeg" />
+      <dbg Control="SubmittButton" ControlType="" Method="Get" Property="Displayed" Value="" AValue="True" Result="Passed" Error="" stepTime="" Screenshot="C:\JimmySelenium\TestReports\JimmySelenium.JimmyScripts_10312020185810\Screenshots\SeneGenceDistributorSignup\10_31_2020_6_58_27_PM.jpeg" />
+    </teststep>
+    <teststep description="19. Verify SubmittButton is now and Enabled" stepnumber="19">
+      <dbg Control="SubmittButton" ControlType="" Method="Get" Property="Enabled" Value="" AValue="True" Result="Passed" Error="" stepTime="" Screenshot="C:\JimmySelenium\TestReports\JimmySelenium.JimmyScripts_10312020185810\Screenshots\SeneGenceDistributorSignup\10_31_2020_6_58_27_PM.jpeg" />
+      <dbg Control="SubmittButton" ControlType="" Method="Get" Property="Enabled" Value="" AValue="True" Result="Passed" Error="" stepTime="" Screenshot="C:\JimmySelenium\TestReports\JimmySelenium.JimmyScripts_10312020185810\Screenshots\SeneGenceDistributorSignup\10_31_2020_6_58_28_PM.jpeg" />
+    </teststep>
+  </test>
+</testdetails>
